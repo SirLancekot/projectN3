@@ -1,0 +1,61 @@
+.section1 .container {
+    display: flex;
+    width: 100%;
+    background: url(../img/section1/image_8.png) 55% top no-repeat;
+    background-size: cover;
+    padding: 130px 0; 
+    
+}
+.section1 .container .main_text {
+    margin: 0 352px;
+}
+
+.section1 .container .main_text h1{
+    max-width: 579px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 37px;
+}
+.section1 .container .main_text .description_UDO {
+    max-width: 410px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 56px;
+}
+.section1 .container .button {
+    display: inline-block;
+    max-width: 142px;
+    max-height: 44px;
+    border-radius: 3px;
+    padding: 10px 16px;
+    color: white;
+    background: blue;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 1920px) {
+    .section .container .main_text {
+        
+    }
+}
+@media (max-width: 1260px) {
+    .section1 .container .main_text {
+        margin: 0 10px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .section1 .container .main_text{
+        margin: 0 0;
+     
+}
+}
+
+@media (max-width: 768px) {
+    .container {
+     
+}
+}

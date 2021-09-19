@@ -1,0 +1,105 @@
+.section2 .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1260px;
+    width: 100%;
+    background: white;
+    padding: 120px 0 165px 0; 
+}
+.section2 .container .left_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .container .left_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3D4B66;
+    margin-bottom: 80px;
+}
+
+.section2 .container .left_content h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 50px;
+    margin-bottom: 48px;
+    color: #3D4B66;
+}
+.section2 .container .left_content .list {
+    display: flex;
+    max-width: 520px;
+}
+.section2 .container .left_content .p_s {
+    margin-top: -23px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 50px;
+    max-width: 415px;
+}
+
+.section2 .container .left_content .chekboks {
+    display: flex;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.section2 .container .right_content {
+    display: flex;
+    max-width: 488px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 140px 68px;
+}
+
+.section2 .container .right_content .blue_text {
+    color: #1939DE;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.section2 .container .right_content .r_c_text {
+    color: #3D4B66;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media (max-width: 1920px) {
+    .section2 .container  {
+        
+    }
+}
+@media (max-width: 1260px) {
+    .section2 .container  {
+        
+    }
+}
+
+
+@media (max-width: 992px) {
+    .section2 .container {
+        margin: 0 0;
+     
+}
+}
+
+@media (max-width: 768px) {
+    .section2 .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 .container .left_content {
+        margin-bottom: 40px;
+    }
+    .section2 .container .left_content .list {
+        max-width: 400px;
+    }
+}
