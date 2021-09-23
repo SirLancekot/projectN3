@@ -1,7 +1,6 @@
 .section2 .container {
     display: flex;
-    justify-content: space-around;
-    max-width: 1260px;
+    justify-content: space-between;
     width: 100%;
     background: white;
     padding: 120px 0 165px 0; 
@@ -77,12 +76,6 @@
         
     }
 }
-@media (max-width: 1260px) {
-    .section2 .container  {
-        
-    }
-}
-
 
 @media (max-width: 992px) {
     .section2 .container {

@@ -1,0 +1,72 @@
+.section4 .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1220px;
+    padding: 120px 0;
+    background: white;
+}
+.section4 .container h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    color: #3D4B66;
+}
+
+.section4 .container .admissions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section4 .container .admissions .plus_admission {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    border-radius: 8px;
+    padding: 52px 29px 57px 29px;
+    border: 1px solid #DDDFE0;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section4 .container .admissions .plus_admission .jpg_a-n {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.section4 .container .admissions .plus_admission .text_admission {
+    color: #3D4B66;
+    max-width: 220px;
+}
+
+@media (max-width: 1920px) {
+    .section2 .container  {
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .section4 .container {
+        max-width: 720px;
+    }
+    .section4 .container .admissions .plus_admission {
+        min-width: 336px;
+        padding: 32px 33px;
+    }
+    .section4 .container .admissions{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section3 .container .points{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}

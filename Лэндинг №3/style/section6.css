@@ -1,0 +1,212 @@
+.section6 .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 104px 0 84px;
+}
+
+.section6 .container h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    color: #3D4B66;
+}
+
+.section6 .container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 864px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DDDFE0;
+    border-radius: 6px;
+    padding: 42px 0;
+}
+
+/* .section6 .container .full_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 135px;
+} */
+
+.section6 .container .form /* .full_form */ .chapter_1 h3, .chapter_2 h3 {
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #3D4B66;
+}
+
+.section6 .container .form /* .full_form */ hr {
+    width: 100%;
+    border: 1px solid #EEF2F7;
+    margin-bottom: 32px;
+
+}
+
+.section6 .container .form .your_full_name, .full_name_custody, .data  {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    padding: 24px 18px 16px ;
+    outline: none;
+    background: #EEF2F7;
+    margin-bottom: 32px;
+
+}
+
+.section6 .container .form /* .full_form */ .block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6 .container .form /* .full_form */ .block input {
+    width: 49%;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    padding: 24px 18px 16px ;
+    outline: none;
+    background: #EEF2F7;
+    margin-bottom: 32px;
+}
+
+.section6 .container .form /* .full_form */ .chapter_2 .attach_file {
+    /* max-width: 592px; */
+    width: 100%;
+    border: 1px solid #9299A2;
+    border-style: dashed;
+    padding: 0 18px;
+    margin-bottom: 40px;
+}
+
+.section6 .container .form /* .full_form */ .chapter_2 .attach_file .a_f_text {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0;
+}
+
+.section6 .container .form /* .full_form */ .chapter_2 .attach_file .a_f_text p {
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9299A2;
+}
+
+.section6 .container .form /* .full_form */ .send_file label {
+    display: flex;
+    max-width: 137px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 16px;
+    border: 1px solid #1939DE;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.section6 .container .form /* .full_form */ .send_file label .blue {
+    color: #1939DE;
+}
+
+.section6 .container .form /* .full_form */ .send_file .s_f {
+    display: none;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .agree {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 110px;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .button {
+    min-width: 142px;
+    max-height: 44px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #1939DE;
+    transition: all 0.5s linear 0s;
+
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .chekbocks {
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid #1939DE;
+    border-radius: 3px;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .agree_text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 16px;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .agree_text .color_text {
+    color: #1939DE ;
+}
+
+.section6 .container .form /* .full_form */ .chapter_3 .the_confirmation .button:hover {
+    background: hsl(240, 93%, 62%);
+}
+
+@media (max-width: 1920px) {
+    .section6 .container  {
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .section6 {
+        padding: 60px 0;
+    }
+    .section6 .container .form  {
+        max-width: 684px;
+    }
+    .section6 .container .form .chapter_3 .the_confirmation .agree {
+        max-width: 216px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .section6 .container {
+        padding: 0 0;
+    }
+
+    .section6 .container /* .full_form */ {
+        padding: 0 25px;
+    }
+    .section6 .container .form /* .full_form */ .block{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section6 .container .form /* .full_form */ .your_full_name, .full_name_custody, .data{
+        margin-bottom: 12px;
+    }
+
+    .section6 .container .form /* .full_form */ .block input {
+    width: 100%;
+    margin-bottom: 12px;
+    }
+    .section6 .container .form /* .full_form */ .chapter_3 .the_confirmation {
+        flex-direction: column;
+    }
+}

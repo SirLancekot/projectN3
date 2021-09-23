@@ -1,0 +1,75 @@
+.section5 {
+    display: flex;
+    width: 100%;
+    background: #F2F2F2 url(../img/section5/chair.png) right top no-repeat;
+    /* background-size: cover; */
+}
+
+.section5 .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 120px 0 110px;
+}
+
+.section5 .container h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: #3D4B66;
+}
+
+.section5 .container .price {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 117px;
+    margin-bottom: 40px;
+    color: #1939DE;
+
+}
+
+.section5 .container .price .rub {
+    font-weight: normal;
+}
+
+.section5 .container .description_cost {
+    max-width: 386px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #3D4B66;
+}
+
+.section5 .container .mid_price {
+    max-width: 386px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D4B66;
+}
+
+.section5 .container .mid_price .number_rub {
+    font-weight: 700;
+}
+
+@media (max-width: 1920px) {
+    .section2 .container  {
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .section2 .container {
+        margin: 0 0;
+     
+}
+}
+
+@media (max-width: 768px) {
+    .section3 .container .points{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
