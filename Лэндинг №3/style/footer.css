@@ -6,33 +6,25 @@
     justify-content: center;
     background: #EEF2F7;
 }
-.footer .container {
-
+.footer .container .text_f {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3D4B66;
 }
 
 @media (max-width: 1920px) {
-    .footer {
 
-    }
-    .footer .container {
-
-    }
 }
 
 @media (max-width: 992px) {
-    .footer {
-
-    }
     .footer .container {
-
+        justify-content: center
     }
 }
 
 @media (max-width: 768px) {
-    .footer {
-
+    .footer .container .text_f {
+        max-width: 311px;
+        text-align: center;
     }
-    .footer .container {
-
-    }
-}

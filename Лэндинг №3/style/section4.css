@@ -64,9 +64,22 @@
 }
 
 @media (max-width: 768px) {
-    .section3 .container .points{
+    .section4 .container {
+        padding: 0 24px;
+    }
+    .section4 .container h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 40px 0 44px 0;
+    }
+    
+    .section4 .container .admissions {
+        display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
         align-items: center;
+    }
+    .section4 .container .admissions .plus_admission {
+        padding: 24px 10px;
+        min-width: 100%;
     }
 }
