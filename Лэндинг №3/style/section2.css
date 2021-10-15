@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 100%;
     background: white;
-    padding: 120px 0 165px 0; 
+    padding: 120px 20px 165px ; 
 }
 .section2 .container .left_content {
     display: flex;
@@ -78,6 +78,9 @@
 }
 
 @media (max-width: 992px) {
+    .section2 .container {
+        padding: 40px 20px;
+    }
     .section2 .container .left_content h2 {
     font-size: 24px;
     line-height: 28px;
@@ -115,11 +118,12 @@
     .section2 .container {
         flex-direction: column;
         align-items: center;
-        padding: 40px 0 60px 0;
+        padding: 40px 20 60px;
     }
     .section2 .container .right_content {
-        margin: 0 4px;
-        max-width: 312px;
+        max-width: 280px;
+        margin: 0 2px;
+        
     }
     .section2 .container .left_content .p_s {
         font-size: 12px;

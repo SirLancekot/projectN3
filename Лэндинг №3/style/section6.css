@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding: 104px 0 84px;
+    padding: 104px 20px 84px;
 }
 
 .section6 .container h2 {
@@ -173,6 +173,42 @@
     background: hsl(240, 93%, 62%);
 }
 
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid blue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  
+  }
+
+  .custom-checkbox:checked+label::before {
+    content: '';
+ /*  border-color: red;
+  background-color: blue; */
+  background-image: url("../img/section6/checkbox.png");
+  background-size: cover;
+}
+
+
+
+
 @media (max-width: 1920px) {
     .section6 .container  {
         
@@ -202,7 +238,7 @@
     }
 
     .section6 .container {
-        padding: 0 25px;
+        padding: 0 20px;
     }
 
     .section6 .container .form {
@@ -237,6 +273,9 @@
         flex-direction: column;
     }
     .section6 .container .form .chapter_3 .the_confirmation .agree {
+        margin-bottom: 32px;
+    }
+    .section6 .container .form .chapter_1 .block .your_email {
         margin-bottom: 32px;
     }
 }

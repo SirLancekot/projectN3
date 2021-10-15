@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 120px 0;
+    padding: 120px 20px;
 }
 
 .section3 .container h2 {
@@ -77,7 +77,7 @@
 
 .section3 .container .points .text_1_3 .announcement {
     max-width: 520px;
-    max-height: 92px;
+    padding: 24px 50px;
     background: white;
     text-align: center;
     border-radius: 8px;
@@ -85,7 +85,7 @@
 
 .section3 .container .points .announcement_2 {
     max-width: 520px;
-    max-height: 92px;
+    padding: 24px 50px;
     background: white;
     text-align: center;
     border-radius: 8px;
@@ -97,10 +97,15 @@
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1110px) {
     .section3 .container {
         width: 100%;
-        padding: 120px 36px 120px 35px;
+        padding: 120px 30px 120px;
+    }
+
+    .section3 .container .points {
+        align-items: center;
+        justify-content: center;
     }
 
     .section3 .container .points .text_1_3 .announcement {
@@ -109,6 +114,18 @@
     .section3 .container .points .announcement_2 {
         display:initial;
         width: 100%;
+        
+    }
+    .section3 .container h2 {  
+        font-size: 24px;
+        padding-left: 100px;
+    }
+    .section3 .container h3 {  
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .section3 .container .text_points {
+        font-size: 16px;
     }
 }    
     
@@ -118,5 +135,16 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+    }
+    .section3 .container h2 {  
+        padding-left: 0px;
+    }
+    .section3 .container h3 {  
+        padding-left: 0px;
+    }
+    .section3 .container .points .announcement_2 {
+        padding:6px 12px;
+        font-size: 16px;
+        
     }
 }
